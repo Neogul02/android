@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/hour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="시"/>
+
+    <EditText
+        android:id="@+id/minute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="분"/>
+
+    <android.widget.Button
+        android:id="@+id/btnOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textSize="20dp"
+        android:background="#8BC34A"/>
+
+    <TimePicker
+        android:id="@+id/timepicker1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"/>
+
+</LinearLayout>
